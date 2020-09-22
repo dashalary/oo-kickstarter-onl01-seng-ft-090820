@@ -10,8 +10,6 @@ end
 def add_backer(backer)
 @backers << backer 
 backer.backed_projects << self
-# project = Project.new(@title)
-# @backed_projects << project 
 end
   
   
